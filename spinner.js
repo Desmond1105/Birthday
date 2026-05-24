@@ -18,7 +18,7 @@ spinButton.addEventListener("click", () => {
     spinnerMusic.play();
 
     spinnerMusic.volume = 0.4;
-    
+
     spinning = true;
 
     result.innerHTML = "";
@@ -63,9 +63,6 @@ spinButton.addEventListener("click", () => {
             boxes[winnerIndex].classList.add("active");
 
             document.getElementById("popup").style.display = "flex";
-
-
-            popupSound.currentTime = 0;
 
             popupSound.volume = 1;
 
