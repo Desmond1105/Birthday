@@ -15,7 +15,10 @@ spinButton.addEventListener("click", () => {
 
     if (spinning) return;
 
+    spinnerMusic.play();
 
+    spinnerMusic.volume = 0.4;
+    
     spinning = true;
 
     result.innerHTML = "";
