@@ -1,0 +1,47 @@
+<link rel="stylesheet" href="style.css">
+
+<h1>Spin Your Birthday Reward 🎁</h1>
+
+<div class="reward-container">
+
+    <div class="reward-box">iPhone 17 Pro Max</div>
+
+    <div class="reward-box">RM 888</div>
+
+    <div class="reward-box">RM 18</div>
+
+    <div class="reward-box">iPhone 13</div>
+
+    <div class="reward-box" id="winningBox">RM 288</div>
+
+    <div class="reward-box">Roti Canai</div>
+
+</div>
+
+<button id="spinButton">SPIN</button>
+
+<div id="result"></div>
+
+<div id="popup" class="popup">
+
+    <div class="popup-content">
+
+        <h1>🎉 Congratulations 🎉</h1>
+
+        <p>You won RM 288!</p>
+
+        <button onclick="closePopup()">YAY 🎁</button>
+
+    </div>
+
+</div>
+
+<audio id="spinnerMusic" autoplay loop preload="auto">
+    <source src="spinBg.mp3" type="audio/mpeg">
+</audio>
+
+<audio id="popupSound" preload="auto">
+    <source src="success.mp3" type="audio/mpeg">
+</audio>
+
+<script src="spinner.js"></script>
