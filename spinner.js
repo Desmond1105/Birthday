@@ -64,7 +64,7 @@ spinButton.addEventListener("click", () => {
 
             popupSound.currentTime = 0;
 
-            popupSound.volume = 0.7;
+            popupSound.volume = 1;
 
             popupSound.play();
 
